@@ -1,0 +1,336 @@
+{
+  "NAME_INCOME_TYPE": {
+    "type": "categorical_topk",
+    "has_missing": false,
+    "levels": [
+      "Businessman",
+      "Commercial associate",
+      "Pensioner",
+      "State servant",
+      "Student",
+      "Working"
+    ],
+    "quantiles": null
+  },
+  "NAME_FAMILY_STATUS": {
+    "type": "categorical_topk",
+    "has_missing": false,
+    "levels": [
+      "Civil marriage",
+      "Married",
+      "Separated",
+      "Single / not married",
+      "Widow"
+    ],
+    "quantiles": null
+  },
+  "CNT_CHILDREN": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      10.0
+    ]
+  },
+  "AMT_INCOME_TOTAL": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      26550.0,
+      99000.0,
+      135000.0,
+      166500.0,
+      225000.0,
+      6750000.0
+    ]
+  },
+  "AMT_CREDIT": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      45000.0,
+      265851.0,
+      450000.0,
+      640080.0,
+      904500.0,
+      4050000.0
+    ]
+  },
+  "AMT_ANNUITY": {
+    "type": "numeric_quantile",
+    "has_missing": true,
+    "levels": null,
+    "quantiles": [
+      1615.5,
+      14823.0,
+      21888.0,
+      27909.0,
+      37102.5,
+      225000.0
+    ]
+  },
+  "AMT_GOODS_PRICE": {
+    "type": "numeric_quantile",
+    "has_missing": true,
+    "levels": null,
+    "quantiles": [
+      40500.0,
+      225000.0,
+      427500.0,
+      562500.0,
+      864000.0,
+      4050000.0
+    ]
+  },
+  "DAYS_EMPLOYED": {
+    "type": "numeric_quantile",
+    "has_missing": true,
+    "levels": null,
+    "quantiles": [
+      -16678.0,
+      -4226.0,
+      -2568.0,
+      -1497.0,
+      -733.0,
+      0.0
+    ]
+  },
+  "OCCUPATION_TYPE": {
+    "type": "categorical_topk",
+    "has_missing": true,
+    "levels": [
+      "Accountants",
+      "Core staff",
+      "Drivers",
+      "High skill tech staff",
+      "Laborers",
+      "MISSING",
+      "Managers",
+      "Medicine staff",
+      "OTHER",
+      "Sales staff",
+      "Security staff"
+    ],
+    "quantiles": null
+  },
+  "FLAG_OWN_CAR": {
+    "type": "categorical_topk",
+    "has_missing": false,
+    "levels": [
+      "N",
+      "Y"
+    ],
+    "quantiles": null
+  },
+  "FLAG_OWN_REALTY": {
+    "type": "categorical_topk",
+    "has_missing": false,
+    "levels": [
+      "N",
+      "Y"
+    ],
+    "quantiles": null
+  },
+  "AGE": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      30.0027397260274,
+      36.23287671232877,
+      41.78630136986301,
+      48.484931506849314,
+      56.2027397260274,
+      64.9972602739726
+    ]
+  },
+  "AMT_CREDIT_SUM_sum": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      36180.9,
+      63360.0,
+      96255.0,
+      155507.76000000004,
+      1060933.905
+    ]
+  },
+  "AMT_CREDIT_SUM_DEBT_sum": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      8171.7750000000015,
+      8933238.0
+    ]
+  },
+  "AMT_CREDIT_SUM_OVERDUE_max": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      376047.0
+    ]
+  },
+  "CREDIT_DAY_OVERDUE_max": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1982.0
+    ]
+  },
+  "CNT_CREDIT_PROLONG_sum": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      9.0
+    ]
+  },
+  "CREDIT_ACTIVE_Active": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      12.0
+    ]
+  },
+  "CREDIT_ACTIVE_Closed": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      1.0,
+      1.0,
+      2.0,
+      3.0,
+      27.0
+    ]
+  },
+  "CREDIT_TYPE_Consumer credit": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      1.0,
+      1.0,
+      2.0,
+      3.0,
+      20.0
+    ]
+  },
+  "CREDIT_TYPE_Credit card": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      12.0
+    ]
+  },
+  "CREDIT_TYPE_Microloan": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      20.0
+    ]
+  },
+  "CREDIT_TYPE_Unknown type of loan": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0
+    ]
+  },
+  "CREDIT_TYPE_Another type of loan": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.0
+    ]
+  },
+  "DEBT_RATIO": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06549944024507878,
+      10021.333333333334
+    ]
+  },
+  "OVERDUE_RATIO": {
+    "type": "numeric_quantile",
+    "has_missing": false,
+    "levels": null,
+    "quantiles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.571066666666667
+    ]
+  }
+}
